@@ -35,11 +35,7 @@ This page has no real message?
 Nothing really makes sense in this page - sorry!
 ```
 
-$$
-\begin{align}
-  V_{cube} = l w h \label{eq:test2}
-\end{align}
-$$
+$ V_{cube} = l w h \label{eq:test2}$
 
  ```{figure} Math4-web.jpg
  ---
@@ -55,13 +51,7 @@ In {numref}`math4-web`, you can see an image of advanced mathematical equation.
 Do not try to understand this page, it really makes no sense!
 ```
 
-$$
-\begin{align*}
-  f(x) &= x^2\\
-  g(x) &= \frac{1}{x}\\
-  F(x) &= \int^a_b \frac{1}{3}x^3
-\end{align*}
-$$
+$ f(x) &= x^2\\ g(x) &= \frac{1}{x}\\ F(x) &= \int^a_b \frac{1}{3}x^3 $
 
 <p style="color:blue; font-size:125%">
 Here is a second code block written in python
