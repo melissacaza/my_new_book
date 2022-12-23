@@ -1,0 +1,848 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Heat treatment on detection of SARS-CoV-2, FluA, FluB and RSV targets by Seegene Combo kit &#8212; My random science book!</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="BV analysis by Melissa Caza" href="BV_short.html" />
+    <link rel="prev" title="Assignment 8 for Data Science Toolbox course" href="File1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">My random science book!</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown.html">
+   Markdown Files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks.html">
+   Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown-notebooks.html">
+   Notebooks with MyST Markdown
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="File1.html">
+   Assignment 8 for Data Science Toolbox course
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Heat treatment on detection of SARS-CoV-2, FluA, FluB and RSV targets by Seegene Combo kit
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="BV_short.html">
+   BV analysis by Melissa Caza
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="File2.html">
+   Assignment 8 for Data Science Toolbox course - file2
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Flu_PCR.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FFlu_PCR.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/Flu_PCR.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#by-melissa-caza">
+   by Melissa Caza
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#july-2021">
+   July 2021
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#equation-of-the-mean">
+   Equation of the mean
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#standard-deviation-of-the-mean">
+   Standard deviation of the mean
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Heat treatment on detection of SARS-CoV-2, FluA, FluB and RSV targets by Seegene Combo kit</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#by-melissa-caza">
+   by Melissa Caza
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#july-2021">
+   July 2021
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#equation-of-the-mean">
+   Equation of the mean
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#standard-deviation-of-the-mean">
+   Standard deviation of the mean
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="heat-treatment-on-detection-of-sars-cov-2-flua-flub-and-rsv-targets-by-seegene-combo-kit">
+<h1>Heat treatment on detection of SARS-CoV-2, FluA, FluB and RSV targets by Seegene Combo kit<a class="headerlink" href="#heat-treatment-on-detection-of-sars-cov-2-flua-flub-and-rsv-targets-by-seegene-combo-kit" title="Permalink to this headline">#</a></h1>
+<section id="by-melissa-caza">
+<h2>by Melissa Caza<a class="headerlink" href="#by-melissa-caza" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="july-2021">
+<h2>July 2021<a class="headerlink" href="#july-2021" title="Permalink to this headline">#</a></h2>
+<p><img alt="Influenza.jpg" src="attachment:231f2f50-2851-4275-86e4-675463744948.jpg" /></p>
+<p>Fig 1: 3D representation of the Influenza A virus.</p>
+<div class="cell tag_hide-imput docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
+<span class="kn">from</span> <span class="nn">vega_datasets</span> <span class="kn">import</span> <span class="n">data</span>
+<span class="kn">from</span> <span class="nn">altair.expr</span> <span class="kn">import</span> <span class="n">datum</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_hide-imput docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">alt</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">enable</span> <span class="p">(</span><span class="s1">&#39;default&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>RendererRegistry.enable(&#39;default&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">&quot;ignore&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">SG_combokit_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">&#39;Seegene_combokit_stipped.xlsx&#39;</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;NPS HI&#39;</span><span class="p">)</span>
+<span class="n">SG_combokit_df</span> <span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 220 entries, 0 to 219
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Sample         220 non-null    int64  
+ 1   Specimen type  220 non-null    object 
+ 2   Gene           220 non-null    object 
+ 3   Ct value       218 non-null    float64
+ 4   Treatment      220 non-null    object 
+ 5   RDRP Mean      47 non-null     float64
+ 6   RDRP  St.D     47 non-null     float64
+ 7   RDRP %CV       47 non-null     float64
+ 8   RDRP ∆C(t)     47 non-null     float64
+ 9    N Mean        47 non-null     float64
+ 10   N St.D        47 non-null     float64
+ 11   N %CV         47 non-null     float64
+ 12  N ∆C(t)        47 non-null     float64
+dtypes: float64(9), int64(1), object(3)
+memory usage: 22.5+ KB
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x_order</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Neat&#39;</span><span class="p">,</span> <span class="s1">&#39;Heat inactivated&#39;</span><span class="p">]</span>
+<span class="n">grouped_A</span> <span class="o">=</span> <span class="n">SG_combokit_df</span><span class="p">[</span><span class="n">SG_combokit_df</span><span class="p">[</span><span class="s1">&#39;Gene&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Flu A&#39;</span><span class="p">]</span>
+<span class="n">fluA_point</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_A</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Flu A (n=5)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">labelAngle</span><span class="o">=</span><span class="mi">0</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mi">20</span><span class="p">,</span><span class="mi">36</span><span class="p">]),</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span> <span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>
+                                                          
+<span class="n">fluA_line</span><span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_A</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ct value&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>                                                  
+
+<span class="n">fluA_plot</span> <span class="o">=</span> <span class="p">(</span><span class="n">fluA_point</span> <span class="o">+</span> <span class="n">fluA_line</span><span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
+<span class="n">fluA_plot</span>
+
+
+<span class="n">grouped_B</span> <span class="o">=</span> <span class="n">SG_combokit_df</span><span class="p">[</span><span class="n">SG_combokit_df</span><span class="p">[</span><span class="s1">&#39;Gene&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Flu B&#39;</span><span class="p">]</span>
+<span class="n">fluB_point</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_B</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Flu B (n=5)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">labelAngle</span><span class="o">=</span><span class="mi">0</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mi">20</span><span class="p">,</span><span class="mi">36</span><span class="p">]),</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span>  <span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>
+                                                          
+<span class="n">fluB_line</span><span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_B</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ct value&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>                                                  
+
+<span class="n">fluB_plot</span> <span class="o">=</span> <span class="p">(</span><span class="n">fluB_point</span> <span class="o">+</span> <span class="n">fluB_line</span><span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
+<span class="n">fluB_plot</span>
+
+
+<span class="n">grouped_rsv</span> <span class="o">=</span> <span class="n">SG_combokit_df</span><span class="p">[</span><span class="n">SG_combokit_df</span><span class="p">[</span><span class="s1">&#39;Gene&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;RSV&#39;</span><span class="p">]</span>
+<span class="n">rsv_point</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_rsv</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;RSV (n=4)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">labelAngle</span><span class="o">=</span><span class="mi">0</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mi">20</span><span class="p">,</span><span class="mi">36</span><span class="p">]),</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span> <span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>
+                                                          
+<span class="n">rsv_line</span><span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_rsv</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ct value&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>                                                  
+
+<span class="n">rsv_plot</span> <span class="o">=</span> <span class="p">(</span><span class="n">rsv_point</span> <span class="o">+</span> <span class="n">rsv_line</span><span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
+<span class="n">rsv_plot</span>
+
+<span class="n">fluA_plot</span><span class="o">|</span> <span class="n">fluB_plot</span><span class="o">|</span> <span class="n">rsv_plot</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-23efd40bf6424cfeb62490dc4fa0ac13"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-23efd40bf6424cfeb62490dc4fa0ac13") {
+      outputDiv = document.getElementById("altair-viz-23efd40bf6424cfeb62490dc4fa0ac13");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "hconcat": [{"layer": [{"mark": {"type": "point", "size": 50}, "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelAngle": 0, "labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": "Treatment", "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "scale": {"domain": [20, 36]}, "title": null, "type": "quantitative"}}, "title": "Flu A (n=5)"}, {"mark": "line", "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": "Treatment", "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "title": "Ct value", "type": "quantitative"}}}], "data": {"name": "data-1b9f5533b8b4c455e90779b26b146ed9"}, "height": 300, "width": 150}, {"layer": [{"mark": {"type": "point", "size": 50}, "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelAngle": 0, "labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": null, "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "scale": {"domain": [20, 36]}, "title": null, "type": "quantitative"}}, "title": "Flu B (n=5)"}, {"mark": "line", "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": "Treatment", "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "title": "Ct value", "type": "quantitative"}}}], "data": {"name": "data-e88b175fcb096a6b24716143684de2cb"}, "height": 300, "width": 150}, {"layer": [{"mark": {"type": "point", "size": 50}, "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelAngle": 0, "labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": null, "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "scale": {"domain": [20, 36]}, "title": null, "type": "quantitative"}}, "title": "RSV (n=4)"}, {"mark": "line", "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": "Treatment", "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "title": "Ct value", "type": "quantitative"}}}], "data": {"name": "data-2838b32e4a456c14fb4307ad6b6b8e5f"}, "height": 300, "width": 150}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-1b9f5533b8b4c455e90779b26b146ed9": [{"Sample": 49, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 31.42, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 50, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 28.45, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 51, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 27.13, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 52, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 32.82, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 53, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 26.52, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 49, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 31.3, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 50, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 28.68, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 51, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 27.02, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 52, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 33.67, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 53, "Specimen type": "NPS", "Gene": "Flu A", "Ct value": 26.95, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}], "data-e88b175fcb096a6b24716143684de2cb": [{"Sample": 54, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 27.93, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 55, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 35.47, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 56, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 28.41, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 57, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 28.52, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 58, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 25.2, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 54, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 27.76, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 55, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 34.38, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 56, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 27.88, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 57, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 28.8, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 58, "Specimen type": "NPS", "Gene": "Flu B", "Ct value": 25.06, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}], "data-2838b32e4a456c14fb4307ad6b6b8e5f": [{"Sample": 59, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 21.73, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 60, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 24.9, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 61, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 26.63, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 62, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 32.21, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 59, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 22.58, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 60, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 25.23, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 61, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 26.69, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 62, "Specimen type": "NPS", "Gene": "RSV", "Ct value": 31.9, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<p>Fig 2: Comparison of heat treatment vs neat on the detection of Flu A, Flu B and RSV in the Seegene Combo kit assay</p>
+<p>In Fig 2, you can see that heat treatment did no change significantly the Ct values of any targets when compared to neat specimens.</p>
+<div class="cell tag_hide-imput docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">SG_combokit_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 220 entries, 0 to 219
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Sample         220 non-null    int64  
+ 1   Specimen type  220 non-null    object 
+ 2   Gene           220 non-null    object 
+ 3   Ct value       218 non-null    float64
+ 4   Treatment      220 non-null    object 
+ 5   RDRP Mean      47 non-null     float64
+ 6   RDRP  St.D     47 non-null     float64
+ 7   RDRP %CV       47 non-null     float64
+ 8   RDRP ∆C(t)     47 non-null     float64
+ 9    N Mean        47 non-null     float64
+ 10   N St.D        47 non-null     float64
+ 11   N %CV         47 non-null     float64
+ 12  N ∆C(t)        47 non-null     float64
+dtypes: float64(9), int64(1), object(3)
+memory usage: 22.5+ KB
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_hide-imput docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rdrp_drop</span> <span class="o">=</span> <span class="n">SG_combokit_df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Ct value&#39;</span><span class="p">])</span>
+<span class="n">rdrp_drop</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+Int64Index: 218 entries, 0 to 219
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Sample         218 non-null    int64  
+ 1   Specimen type  218 non-null    object 
+ 2   Gene           218 non-null    object 
+ 3   Ct value       218 non-null    float64
+ 4   Treatment      218 non-null    object 
+ 5   RDRP Mean      47 non-null     float64
+ 6   RDRP  St.D     47 non-null     float64
+ 7   RDRP %CV       47 non-null     float64
+ 8   RDRP ∆C(t)     47 non-null     float64
+ 9    N Mean        47 non-null     float64
+ 10   N St.D        47 non-null     float64
+ 11   N %CV         47 non-null     float64
+ 12  N ∆C(t)        47 non-null     float64
+dtypes: float64(9), int64(1), object(3)
+memory usage: 23.8+ KB
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x_order</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Neat&#39;</span><span class="p">,</span> <span class="s1">&#39;Heat inactivated&#39;</span><span class="p">]</span>
+<span class="n">grouped_rdrp</span> <span class="o">=</span> <span class="n">rdrp_drop</span><span class="p">[</span><span class="n">rdrp_drop</span><span class="p">[</span><span class="s1">&#39;Gene&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;RdRP&#39;</span><span class="p">]</span>
+<span class="n">rdrp_point</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_rdrp</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;RdRP (n=47)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">labelAngle</span><span class="o">=</span><span class="mi">0</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mi">8</span><span class="p">,</span><span class="mi">40</span><span class="p">]),</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span> <span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>
+                                                          
+<span class="n">rdrp_line</span><span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_rdrp</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ct value&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>                                                  
+
+<span class="n">rdrp_plot</span> <span class="o">=</span> <span class="p">(</span><span class="n">rdrp_point</span> <span class="o">+</span> <span class="n">rdrp_line</span><span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
+<span class="n">rdrp_plot</span>
+
+<span class="n">grouped_n</span> <span class="o">=</span> <span class="n">rdrp_drop</span><span class="p">[</span><span class="n">rdrp_drop</span><span class="p">[</span><span class="s1">&#39;Gene&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;N gene&#39;</span><span class="p">]</span>
+<span class="n">n_point</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_n</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;N gene (n=47)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">labelAngle</span><span class="o">=</span><span class="mi">0</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ct value&#39;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mi">8</span><span class="p">,</span><span class="mi">40</span><span class="p">]),</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span> <span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>
+                                                          
+<span class="n">n_line</span><span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">grouped_n</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Treatment&#39;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span> <span class="n">x_order</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">tickCount</span><span class="o">=</span><span class="mi">4</span><span class="p">)),</span>
+                                                      <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;Ct value:Q&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ct value&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">14</span><span class="p">)),</span>
+                                                        <span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Sample:N&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span> 
+                                                           <span class="p">)</span>                                                  
+
+<span class="n">n_plot</span> <span class="o">=</span> <span class="p">(</span><span class="n">n_point</span> <span class="o">+</span> <span class="n">n_line</span><span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
+<span class="n">n_plot</span>
+
+<span class="n">n_plot</span> <span class="o">|</span> <span class="n">rdrp_plot</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-e45c03fead9b4ce6ba9dbccaa4ddc804"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-e45c03fead9b4ce6ba9dbccaa4ddc804") {
+      outputDiv = document.getElementById("altair-viz-e45c03fead9b4ce6ba9dbccaa4ddc804");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "hconcat": [{"layer": [{"mark": {"type": "point", "size": 50}, "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelAngle": 0, "labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": null, "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "scale": {"domain": [8, 40]}, "title": "Ct value", "type": "quantitative"}}, "title": "N gene (n=47)"}, {"mark": "line", "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": "Treatment", "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "title": "Ct value", "type": "quantitative"}}}], "data": {"name": "data-d7f877473ea765803649a0390c23f370"}, "height": 300, "width": 150}, {"layer": [{"mark": {"type": "point", "size": 50}, "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelAngle": 0, "labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": null, "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "scale": {"domain": [8, 40]}, "title": null, "type": "quantitative"}}, "title": "RdRP (n=47)"}, {"mark": "line", "encoding": {"color": {"field": "Sample", "legend": null, "type": "nominal"}, "x": {"axis": {"labelFontSize": 14, "tickCount": 4, "titleFontSize": 16}, "field": "Treatment", "sort": ["Neat", "Heat inactivated"], "title": "Treatment", "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "titleFontSize": 16}, "field": "Ct value", "title": "Ct value", "type": "quantitative"}}}], "data": {"name": "data-40693b50d667c1024186a4a55011297c"}, "height": 300, "width": 150}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-d7f877473ea765803649a0390c23f370": [{"Sample": 43, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.01, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 34, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.23, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 2, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.16, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 33, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 14.48, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 40, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.38, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 23, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.3, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 12, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 12.44, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 7, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.6, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 16, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.25, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 5, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.8, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 41, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 16.04, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 6, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 12.6, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 29, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.34, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 36, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 16.73, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 19, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.75, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 21, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.27, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 9, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.11, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 48, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.46, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 42, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.29, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 3, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.32, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 32, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.56, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 39, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 19.35, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 47, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 16.19, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 20, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 19.21, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 10, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.7, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 15, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 19.99, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 44, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 20.67, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 26, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 19.17, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 46, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.76, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 37, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 20.53, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 45, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.52, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 8, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.0, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 35, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.39, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 18, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.93, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 30, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.91, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 28, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 23.09, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 24, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 25.87, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 17, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 26.45, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 22, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 25.29, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 11, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 28.51, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 1, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 29.36, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 38, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 28.45, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 27, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 25.2, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 13, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 34.76, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 14, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 36.05, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 31, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 34.57, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 25, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 37.62, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 4, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 38.67, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 43, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 10.97, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 34, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.06, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 2, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 12.3, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 33, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.59, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 40, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.45, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 23, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.73, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 12, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.55, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 7, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.99, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 16, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 11.33, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 5, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.27, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 41, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.49, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 6, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.56, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 29, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.52, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 36, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.27, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 19, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.67, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 21, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 13.55, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 9, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 14.83, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 48, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.35, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 42, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 14.51, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 3, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 14.32, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 32, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.17, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 39, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.39, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 47, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.99, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 20, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 15.65, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 10, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.43, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 15, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 20.08, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 44, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 16.75, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 26, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 16.11, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 46, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.68, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 37, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 16.33, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 45, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.13, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 8, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 26.04, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 35, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 19.55, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 18, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.71, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 30, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 17.29, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 28, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 18.83, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 24, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.71, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 17, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 21.43, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 22, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 24.35, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 11, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 23.85, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 1, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 26.01, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 38, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 25.15, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 27, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 25.06, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 13, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 28.95, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 31, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 32.58, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 25, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 33.4, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 4, "Specimen type": "NPS", "Gene": "N gene", "Ct value": 33.52, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}], "data-40693b50d667c1024186a4a55011297c": [{"Sample": 43, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 11.65, "Treatment": "Neat", "RDRP Mean": 10.73, "RDRP  St.D": 1.3010764773832473, "RDRP %CV": 12.125596247746945, "RDRP \u2206C(t)": 1.8399999999999999, " N Mean": 11.99, " N St.D": 1.4424978336205563, " N %CV": 12.030840980988792, "N \u2206C(t)": 2.039999999999999}, {"Sample": 34, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 12.53, "Treatment": "Neat", "RDRP Mean": 11.45, "RDRP  St.D": 1.5273506473629428, "RDRP %CV": 13.339306963868497, "RDRP \u2206C(t)": 2.16, " N Mean": 12.145, " N St.D": 1.534421715174808, " N %CV": 12.634184562987304, "N \u2206C(t)": 2.17}, {"Sample": 2, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.0, "Treatment": "Neat", "RDRP Mean": 13.155000000000001, "RDRP  St.D": 0.2192031021678301, "RDRP %CV": 1.6663101647117453, "RDRP \u2206C(t)": -0.3100000000000005, " N Mean": 11.73, " N St.D": 0.8061017305526645, " N %CV": 6.872137515367983, "N \u2206C(t)": -1.1400000000000006}, {"Sample": 33, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.06, "Treatment": "Neat", "RDRP Mean": 12.05, "RDRP  St.D": 1.428355697996827, "RDRP %CV": 11.85357425723508, "RDRP \u2206C(t)": 2.0200000000000014, " N Mean": 13.035, " N St.D": 2.04353859762913, " N %CV": 15.677319506169008, "N \u2206C(t)": 2.8900000000000006}, {"Sample": 40, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.07, "Treatment": "Neat", "RDRP Mean": 12.315000000000001, "RDRP  St.D": 1.0677312395916865, "RDRP %CV": 8.670168409189495, "RDRP \u2206C(t)": 1.5099999999999998, " N Mean": 12.415, " N St.D": 1.364716087690038, " N %CV": 10.992477548852502, "N \u2206C(t)": 1.9300000000000015}, {"Sample": 23, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.56, "Treatment": "Neat", "RDRP Mean": 14.155000000000001, "RDRP  St.D": 0.8414570696119912, "RDRP %CV": 5.944592508738899, "RDRP \u2206C(t)": -1.1899999999999995, " N Mean": 12.515, " N St.D": 1.7182694782833103, " N %CV": 13.729680210014465, "N \u2206C(t)": -2.4299999999999997}, {"Sample": 12, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.78, "Treatment": "Neat", "RDRP Mean": 14.11, "RDRP  St.D": 0.4666904755831215, "RDRP %CV": 3.307515773090868, "RDRP \u2206C(t)": -0.6600000000000001, " N Mean": 12.995000000000001, " N St.D": 0.7848885271170686, " N %CV": 6.039927103632693, "N \u2206C(t)": -1.1100000000000012}, {"Sample": 7, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.93, "Treatment": "Neat", "RDRP Mean": 12.625, "RDRP  St.D": 1.8455486988968872, "RDRP %CV": 14.618207516014948, "RDRP \u2206C(t)": 2.6099999999999994, " N Mean": 13.795, " N St.D": 2.552655480083438, " N %CV": 18.5042079020184, "N \u2206C(t)": 3.6099999999999994}, {"Sample": 16, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.24, "Treatment": "Neat", "RDRP Mean": 12.280000000000001, "RDRP  St.D": 2.7718585822512662, "RDRP %CV": 22.57213829194842, "RDRP \u2206C(t)": 3.92, " N Mean": 13.29, " N St.D": 2.7718585822512765, " N %CV": 20.85672371897123, "N \u2206C(t)": 3.92}, {"Sample": 5, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.79, "Treatment": "Neat", "RDRP Mean": 14.35, "RDRP  St.D": 0.6222539674441611, "RDRP %CV": 4.336264581492412, "RDRP \u2206C(t)": 0.879999999999999, " N Mean": 14.535, " N St.D": 1.788980156401966, " N %CV": 12.308085011365435, "N \u2206C(t)": 2.530000000000001}, {"Sample": 41, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.31, "Treatment": "Neat", "RDRP Mean": 14.91, "RDRP  St.D": 0.5656854249492386, "RDRP %CV": 3.7940001673322503, "RDRP \u2206C(t)": 0.8000000000000007, " N Mean": 14.765, " N St.D": 1.8031222920256953, " N %CV": 12.21213878784758, "N \u2206C(t)": 2.549999999999999}, {"Sample": 6, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.32, "Treatment": "Neat", "RDRP Mean": 15.405000000000001, "RDRP  St.D": 0.12020815280171303, "RDRP %CV": 0.7803190704427979, "RDRP \u2206C(t)": -0.16999999999999993, " N Mean": 13.08, " N St.D": 0.6788225099390862, " N %CV": 5.189774540818702, "N \u2206C(t)": -0.9600000000000009}, {"Sample": 29, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.79, "Treatment": "Neat", "RDRP Mean": 14.765, "RDRP  St.D": 1.4495689014324216, "RDRP %CV": 9.817601770622563, "RDRP \u2206C(t)": 2.049999999999999, " N Mean": 15.43, " N St.D": 2.701147904132601, " N %CV": 17.50581921019184, "N \u2206C(t)": 3.8200000000000003}, {"Sample": 36, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.81, "Treatment": "Neat", "RDRP Mean": 14.81, "RDRP  St.D": 1.4142135623730951, "RDRP %CV": 9.549044985638725, "RDRP \u2206C(t)": 2.0, " N Mean": 15.0, " N St.D": 2.446589462905451, " N %CV": 16.310596419369674, "N \u2206C(t)": 3.460000000000001}, {"Sample": 19, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.88, "Treatment": "Neat", "RDRP Mean": 15.225000000000001, "RDRP  St.D": 0.9263098833543776, "RDRP %CV": 6.084137164889179, "RDRP \u2206C(t)": 1.3100000000000005, " N Mean": 14.71, " N St.D": 1.4707821048680187, " N %CV": 9.998518727858727, "N \u2206C(t)": 2.08}, {"Sample": 21, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.92, "Treatment": "Neat", "RDRP Mean": 15.27, "RDRP  St.D": 0.9192388155425123, "RDRP %CV": 6.019900560199819, "RDRP \u2206C(t)": 1.3000000000000007, " N Mean": 15.41, " N St.D": 2.6304372260139655, " N %CV": 17.069677002037416, "N \u2206C(t)": 3.719999999999999}, {"Sample": 9, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.23, "Treatment": "Neat", "RDRP Mean": 15.785, "RDRP  St.D": 0.6293250352560277, "RDRP %CV": 3.9868548321572863, "RDRP \u2206C(t)": 0.8900000000000006, " N Mean": 16.47, " N St.D": 2.319310242291875, " N %CV": 14.082029400679266, "N \u2206C(t)": 3.2799999999999994}, {"Sample": 48, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.29, "Treatment": "Neat", "RDRP Mean": 16.189999999999998, "RDRP  St.D": 0.141421356237309, "RDRP %CV": 0.8735105388345216, "RDRP \u2206C(t)": 0.1999999999999993, " N Mean": 16.405, " N St.D": 1.4919953083036162, " N %CV": 9.094759575151576, "N \u2206C(t)": 2.110000000000001}, {"Sample": 42, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.65, "Treatment": "Neat", "RDRP Mean": 15.94, "RDRP  St.D": 1.0040916292848963, "RDRP %CV": 6.299194663016914, "RDRP \u2206C(t)": 1.4199999999999982, " N Mean": 16.4, " N St.D": 2.6728636328851625, " N %CV": 16.29794898100709, "N \u2206C(t)": 3.7799999999999994}, {"Sample": 3, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.73, "Treatment": "Neat", "RDRP Mean": 16.09, "RDRP  St.D": 0.9050966799187816, "RDRP %CV": 5.62521242957602, "RDRP \u2206C(t)": 1.2800000000000011, " N Mean": 16.32, " N St.D": 2.8284271247461903, " N %CV": 17.331048558493816, "N \u2206C(t)": 4.0}, {"Sample": 32, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.88, "Treatment": "Neat", "RDRP Mean": 16.45, "RDRP  St.D": 0.6081118318204305, "RDRP %CV": 3.696728460914471, "RDRP \u2206C(t)": 0.8599999999999994, " N Mean": 16.865, " N St.D": 2.3970919882224133, " N %CV": 14.213412322694419, "N \u2206C(t)": 3.389999999999999}, {"Sample": 39, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 17.72, "Treatment": "Neat", "RDRP Mean": 17.02, "RDRP  St.D": 0.9899494936611655, "RDRP %CV": 5.816389504472182, "RDRP \u2206C(t)": 1.3999999999999986, " N Mean": 17.37, " N St.D": 2.8001428534987385, " N %CV": 16.12056910477109, "N \u2206C(t)": 3.960000000000001}, {"Sample": 47, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 17.72, "Treatment": "Neat", "RDRP Mean": 18.655, "RDRP  St.D": 1.3222896808188445, "RDRP %CV": 7.088124796670299, "RDRP \u2206C(t)": -1.870000000000001, " N Mean": 17.09, " N St.D": 1.2727922061357835, " N %CV": 7.447584588272578, "N \u2206C(t)": -1.7999999999999972}, {"Sample": 20, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 17.93, "Treatment": "Neat", "RDRP Mean": 17.265, "RDRP  St.D": 0.940452018978107, "RDRP %CV": 5.447159102103139, "RDRP \u2206C(t)": 1.3299999999999983, " N Mean": 17.43, " N St.D": 2.517300141024117, " N %CV": 14.442341600826833, "N \u2206C(t)": 3.5600000000000005}, {"Sample": 10, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.31, "Treatment": "Neat", "RDRP Mean": 18.424999999999997, "RDRP  St.D": 0.16263455967290624, "RDRP %CV": 0.8826841773292062, "RDRP \u2206C(t)": -0.23000000000000043, " N Mean": 17.564999999999998, " N St.D": 0.19091883092036754, " N %CV": 1.0869275885019503, "N \u2206C(t)": 0.2699999999999996}, {"Sample": 15, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.51, "Treatment": "Neat", "RDRP Mean": 19.795, "RDRP  St.D": 1.8172644276494248, "RDRP %CV": 9.180421458193608, "RDRP \u2206C(t)": -2.5699999999999967, " N Mean": 20.034999999999997, " N St.D": 0.06363961030678918, " N %CV": 0.31764217772293085, "N \u2206C(t)": -0.08999999999999986}, {"Sample": 44, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.66, "Treatment": "Neat", "RDRP Mean": 17.97, "RDRP  St.D": 0.9758073580374349, "RDRP %CV": 5.4302023263073735, "RDRP \u2206C(t)": 1.379999999999999, " N Mean": 18.71, " N St.D": 2.771858582251256, " N %CV": 14.814850787019004, "N \u2206C(t)": 3.9200000000000017}, {"Sample": 26, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.08, "Treatment": "Neat", "RDRP Mean": 18.35, "RDRP  St.D": 1.0323759005323574, "RDRP %CV": 5.626026705898405, "RDRP \u2206C(t)": 1.4599999999999973, " N Mean": 17.64, " N St.D": 2.163746750430837, " N %CV": 12.26613804099114, "N \u2206C(t)": 3.0600000000000023}, {"Sample": 46, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.2, "Treatment": "Neat", "RDRP Mean": 19.115000000000002, "RDRP  St.D": 0.12020815280171177, "RDRP %CV": 0.6288681810186333, "RDRP \u2206C(t)": 0.16999999999999815, " N Mean": 18.22, " N St.D": 0.7636753236814726, " N %CV": 4.191412314387885, "N \u2206C(t)": 1.0800000000000018}, {"Sample": 37, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.52, "Treatment": "Neat", "RDRP Mean": 18.625, "RDRP  St.D": 1.2657211383239195, "RDRP %CV": 6.795818192343192, "RDRP \u2206C(t)": 1.7899999999999991, " N Mean": 18.43, " N St.D": 2.969848480983489, " N %CV": 16.11420771016543, "N \u2206C(t)": 4.200000000000003}, {"Sample": 45, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.98, "Treatment": "Neat", "RDRP Mean": 19.41, "RDRP  St.D": 0.8061017305526645, "RDRP %CV": 4.153022826134284, "RDRP \u2206C(t)": 1.1400000000000006, " N Mean": 19.825, " N St.D": 2.3970919882223964, " N %CV": 12.091258452571987, "N \u2206C(t)": 3.3900000000000006}, {"Sample": 8, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 20.42, "Treatment": "Neat", "RDRP Mean": 20.020000000000003, "RDRP  St.D": 0.5656854249492386, "RDRP %CV": 2.825601523222969, "RDRP \u2206C(t)": 0.8000000000000007, " N Mean": 23.52, " N St.D": 3.5638181771802095, " N %CV": 15.152288168283205, "N \u2206C(t)": -5.039999999999999}, {"Sample": 35, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 20.65, "Treatment": "Neat", "RDRP Mean": 20.354999999999997, "RDRP  St.D": 0.41719300090006295, "RDRP %CV": 2.0495848730044854, "RDRP \u2206C(t)": 0.5899999999999999, " N Mean": 20.47, " N St.D": 1.3010764773832473, " N %CV": 6.356016010665595, "N \u2206C(t)": 1.8399999999999999}, {"Sample": 18, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 20.7, "Treatment": "Neat", "RDRP Mean": 19.775, "RDRP  St.D": 1.3081475451951114, "RDRP %CV": 6.615158256359603, "RDRP \u2206C(t)": 1.8499999999999979, " N Mean": 19.82, " N St.D": 2.9839906166072216, " N %CV": 15.055452152407778, "N \u2206C(t)": 4.219999999999999}, {"Sample": 30, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 21.48, "Treatment": "Neat", "RDRP Mean": 20.05, "RDRP  St.D": 2.0223253941935257, "RDRP %CV": 10.086410943608607, "RDRP \u2206C(t)": 2.8599999999999994, " N Mean": 19.6, " N St.D": 3.2668333290818286, " N %CV": 16.66751698511137, "N \u2206C(t)": 4.620000000000001}, {"Sample": 28, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 21.54, "Treatment": "Neat", "RDRP Mean": 20.645, "RDRP  St.D": 1.2657211383239195, "RDRP %CV": 6.130884661292902, "RDRP \u2206C(t)": 1.7899999999999991, " N Mean": 20.96, " N St.D": 3.0122748878546557, " N %CV": 14.371540495489768, "N \u2206C(t)": 4.260000000000002}, {"Sample": 24, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 23.62, "Treatment": "Neat", "RDRP Mean": 23.075000000000003, "RDRP  St.D": 0.7707463914933367, "RDRP %CV": 3.340179378085965, "RDRP \u2206C(t)": 1.0899999999999999, " N Mean": 23.79, " N St.D": 2.9415642097360375, " N %CV": 12.364708742059847, "N \u2206C(t)": 4.16}, {"Sample": 17, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 24.8, "Treatment": "Neat", "RDRP Mean": 23.945, "RDRP  St.D": 1.2091525958289968, "RDRP %CV": 5.049708063599903, "RDRP \u2206C(t)": 1.7100000000000009, " N Mean": 23.939999999999998, " N St.D": 3.5496760415564808, " N %CV": 14.827385303076362, "N \u2206C(t)": 5.02}, {"Sample": 22, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 25.79, "Treatment": "Neat", "RDRP Mean": 25.98, "RDRP  St.D": 0.2687005768508899, "RDRP %CV": 1.0342593412274437, "RDRP \u2206C(t)": -0.38000000000000256, " N Mean": 24.82, " N St.D": 0.6646803743153531, " N %CV": 2.678003119723421, "N \u2206C(t)": 0.9399999999999977}, {"Sample": 11, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 27.53, "Treatment": "Neat", "RDRP Mean": 26.365000000000002, "RDRP  St.D": 1.647558800164657, "RDRP %CV": 6.249037740051799, "RDRP \u2206C(t)": 2.330000000000002, " N Mean": 26.18, " N St.D": 3.2951176003293114, " N %CV": 12.586392667415247, "N \u2206C(t)": 4.66}, {"Sample": 1, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 27.6, "Treatment": "Neat", "RDRP Mean": 27.630000000000003, "RDRP  St.D": 0.042426406871191945, "RDRP %CV": 0.15355196116971387, "RDRP \u2206C(t)": -0.05999999999999872, " N Mean": 27.685000000000002, " N St.D": 2.3688077169749326, " N %CV": 8.556285775600262, "N \u2206C(t)": 3.349999999999998}, {"Sample": 38, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 27.6, "Treatment": "Neat", "RDRP Mean": 26.915, "RDRP  St.D": 0.9687362902255708, "RDRP %CV": 3.5992431366359683, "RDRP \u2206C(t)": 1.370000000000001, " N Mean": 26.799999999999997, " N St.D": 2.333452377915607, " N %CV": 8.706911857894058, "N \u2206C(t)": 3.3000000000000007}, {"Sample": 27, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 28.54, "Treatment": "Neat", "RDRP Mean": 27.36, "RDRP  St.D": 1.6687720036002518, "RDRP %CV": 6.099312878655891, "RDRP \u2206C(t)": 2.3599999999999994, " N Mean": 25.13, " N St.D": 0.09899494936611705, " N %CV": 0.39393135442147653, "N \u2206C(t)": 0.14000000000000057}, {"Sample": 13, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 31.79, "Treatment": "Neat", "RDRP Mean": 30.77, "RDRP  St.D": 1.4424978336205563, "RDRP %CV": 4.688000759247827, "RDRP \u2206C(t)": 2.039999999999999, " N Mean": 31.854999999999997, " N St.D": 4.108290398693841, " N %CV": 12.896846330854942, "N \u2206C(t)": 5.809999999999999}, {"Sample": 14, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 33.96, "Treatment": "Neat", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 31, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 34.69, "Treatment": "Neat", "RDRP Mean": 35.025, "RDRP  St.D": 0.47376154339498805, "RDRP %CV": 1.3526382395288739, "RDRP \u2206C(t)": -0.6700000000000017, " N Mean": 33.575, " N St.D": 1.407142494561231, " N %CV": 4.191042426094508, "N \u2206C(t)": 1.990000000000002}, {"Sample": 25, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 35.16, "Treatment": "Neat", "RDRP Mean": 35.035, "RDRP  St.D": 0.1767766952966369, "RDRP %CV": 0.5045717005755299, "RDRP \u2206C(t)": 0.25, " N Mean": 35.51, " N St.D": 2.98399061660723, " N %CV": 8.403240260791975, "N \u2206C(t)": 4.219999999999999}, {"Sample": 4, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 36.21, "Treatment": "Neat", "RDRP Mean": 36.905, "RDRP  St.D": 0.9828784258493014, "RDRP %CV": 2.6632662941316934, "RDRP \u2206C(t)": -1.3900000000000006, " N Mean": 36.095, " N St.D": 3.641599923110719, " N %CV": 10.088931772020276, "N \u2206C(t)": 5.149999999999999}, {"Sample": 43, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 9.81, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 34, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 10.37, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 2, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.31, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 33, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 11.04, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 40, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 11.56, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 23, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.75, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 12, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.44, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 7, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 11.32, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 16, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 10.32, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 5, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.91, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 41, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.51, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 6, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.49, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 29, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.74, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 36, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 13.81, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 19, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.57, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 21, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 14.62, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 9, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.34, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 48, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.09, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 42, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.23, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 3, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 15.45, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 32, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.02, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 39, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.32, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 47, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.59, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 20, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 16.6, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 10, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.54, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 15, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 21.08, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 44, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 17.28, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 26, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 17.62, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 46, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.03, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 37, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 17.73, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 45, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.84, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 8, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.62, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 35, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 20.06, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 18, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.85, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 30, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 18.62, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 28, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 19.75, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 24, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 22.53, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 17, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 23.09, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 22, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 26.17, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 11, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 25.2, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 1, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 27.66, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 38, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 26.23, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 27, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 26.18, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 13, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 29.75, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 31, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 35.36, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 25, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 34.91, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}, {"Sample": 4, "Specimen type": "NPS", "Gene": "RdRP", "Ct value": 37.6, "Treatment": "Heat inactivated", "RDRP Mean": null, "RDRP  St.D": null, "RDRP %CV": null, "RDRP \u2206C(t)": null, " N Mean": null, " N St.D": null, " N %CV": null, "N \u2206C(t)": null}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<p>Fig 3: Comparison of heat treated vs neat results of the N and RdRP genes using the Seegene Combo assay</p>
+<p>Similarly, in Fig 3, you can see that heat treatment did not significantly change the Ct values when compared to neat specimens.</p>
+</section>
+<section id="equation-of-the-mean">
+<h2>Equation of the mean<a class="headerlink" href="#equation-of-the-mean" title="Permalink to this headline">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\bar{x} = \frac {x_1 + x_2 +... + x_n}{n} \tag{1} \label{mean}  \]</div>
+</section>
+<section id="standard-deviation-of-the-mean">
+<h2>Standard deviation of the mean<a class="headerlink" href="#standard-deviation-of-the-mean" title="Permalink to this headline">#</a></h2>
+<div class="math notranslate nohighlight">
+\[ s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2} \tag{2} \label{Sdv} \]</div>
+<p><img src='Virus.jpg' width='400'></img></p>
+<p>Fig 4: Image representation of Respiratory viruses</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="File1.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Assignment 8 for Data Science Toolbox course</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="BV_short.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">BV analysis by Melissa Caza</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Melissa Caza<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
